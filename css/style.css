@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+  background-color: rgba(166, 166, 166, 0.095);
+
+}
+
+/*  Cards */
+
+.card img{
+width: 100%;
+height: 40%;
+}
+
+@media only screen and (max-width: 30000px) and (min-width: 800px)  {
+    .cards{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+  .card{
+  margin: 2%;
+}
+}
+@media only screen and (max-width: 700px) and (min-width: 10px)  {
+    .cards{
+    padding-left: 2.3rem;
+    text-align: center;
+}
+ #card-linha2{
+    position: absolute;
+    display: contents;
+}
+}
+
+
+/*  footer */
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(12, 0, 59);
+
+}
+.redes-socias img{
+    width: 4rem ;
+
+}
+.redes-socias img{
+    width: 4rem ;
+    margin-top: 9%;
+    margin-left: 1%;
+
+}
